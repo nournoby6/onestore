@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg3.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    min-height: 1000px;
+}
+.login-box {
+    margin-top: 100px;
+    border-top: 1px solid #C00C00;
+    border-bottom: 1px solid #C00C00;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: auto;
+    padding: 40px 30px 30px 30px;
+
+    background-color: rgba(0,0,0,.5); 
+    /*background: #363E4A;;*/
+}
+.user {
+    width: 50px;
+    height: 50px;
+    /*border: 2px solid #FFF;*/
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 25px);
+}
+
+h2{
+    margin: 0;
+    color: #EFED40;
+    text-align: center;
+}
+.login-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #FFF;
+    float: left;
+    display: inline-block;
+    width: 30%;
+}
+
+.login-box input {
+    width: 70%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background: transparent;
+    height: 40px;
+    color: #FFF;
+
+}
+::placeholder {
+    color: rgba(255,255,255,.5);
+
+}
+.login-box input[type="submit"] {
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #C00C00;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 30px;
+       /*background: #FF267E;*/
+
+}
+.login-box input[type="submit"]:hover {
+    background-color: #EFED40;
+    color: #262626;
+}
+.login-box a {
+    color: #EFED40;
+    font-size: 14px;
+    font-weight: bold;
+}
+.login-box a:hover {
+    color: #C00C00;
+}
+.form-fiedlset {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+legend{
+    color: #C00C00;    
+    padding: 20px ;
+    font-weight: bold;
+}
+
+span {
+    color: #C00C00;
+}
+
+span a{
+    padding-left: 10px;
+
+}
+
+.extra-side{
+    background: rgba(0,0,0,.5); 
+    float: right;
+	width: 300px;
+    color: #FFF;
+    margin: 200px 50px 50px 0;
+}
+.error {
+	display: block;
+	color: #FFF;
+    font-size: 12px;
+}
+

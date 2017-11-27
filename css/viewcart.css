@@ -1,0 +1,160 @@
+
+
+.cart-container {
+	margin: 0;
+	/*padding: 20px;*/
+	width: 90%;
+	min-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #DDD;
+	/*border: 1px solid #0091d5;*/
+}
+
+.cart-ul{
+	margin: 0;
+	padding: 0;
+	/*width: 100%;*/
+	text-align: center;
+	font-size: 0;
+}
+.cart-ul li {
+	margin:0;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+}
+.list0{
+	width: 40%;
+	height: 50px;
+	background: gray;
+	font-size: 20px;
+	padding: 8px 10px;
+}
+.list1{
+	width: 20%;
+	height: 50px;
+	background: gray;
+	font-size: 20px;
+	padding: 8px 10px;
+	text-align: right;
+}
+.list2 {
+	text-align: center;
+}
+
+.cart-heading li{
+	margin: 0px;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 12px 10px;
+	/*text-align: center;*/
+}
+.cart-heading li {
+		background: #333;
+		color: #FFF;
+		font-size: 20px;
+		font-weight: bold;
+
+}
+
+.cart-total {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	text-align: right;
+	
+}
+.cart-total li {
+	margin: 0px;
+	background: #DDD;
+	color: #333;
+	padding: 20px;
+	font-size: 40px;
+	border-right: 1px solid #FFF;
+}
+.cart-total .list-total {
+	/*width: 27%;*/
+	width: 80%;
+}
+.cart-total .list-price {
+	/*width: 27%;*/
+	width: 20%;
+}
+
+.cart-update input	{
+	margin: 0;
+	margin-right: 10px;
+	padding: 0;
+	width: 100px;
+	height: 25px;
+	background: transparent;
+	text-align: center;
+	border: 1px solid #333;
+	color: #DDD;
+	font-size: 16px;
+	/*cursor: cell;*/
+	cursor: pointer;
+}
+.cart-update {
+	margin: 0;
+	padding: 0;
+	height: 35px;
+}
+.button {
+		margin: 0;
+		padding: 0;
+		margin-right: 10px;
+		display: inline-block;
+}
+.cart-update a{
+	margin: 0;
+	padding: 0;
+}
+.cart-update img{
+	width: 28px;
+	height: 28px;
+	background: #CCC;
+	color: #0091d5;
+	border: 1px solid #000;
+	/*#0091d5;;*/
+	border-radius: 10px;
+	vertical-align: middle;
+
+}
+.cart-order{
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+}
+.cart-order a{
+	margin: 0;
+	padding: 20px;
+	background: #0AA;
+	/*background: #ef134d;*/
+	border: 1px solid #333;
+	border-radius: 10px;
+	color: #333;
+	width: 50%;
+	text-transform: uppercase;
+}
+.cart-order a:hover {
+	background: #DDD;
+	/*background: #681746;*/
+	background-color: #666;
+	color: #FFF;
+	font-weight: bold;
+	transition: .1s;
+}
+.cart-order a img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #FFF;
+	border: 1px solid #333;
+	vertical-align: middle;
+}
+.cart-update form {
+	display: inline-block;
+}
+
+
