@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.outer-box{
+	margin: auto;
+	padding: 100px;
+	border: 1px solid #CCC;
+	width: 400px;
+	height: 100%;
+	background: #EEE;
+}
+.heading h2{
+	width: 100px;
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	padding: 5px;
+	border-radius: 4px 0 0 0;
+	background: #CCC;
+	text-align: center;
+}
